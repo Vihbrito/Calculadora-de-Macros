@@ -1,0 +1,140 @@
+body, html {
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(197,241,195,1) 0%, rgba(142,191,92,1) 55%, rgba(5,157,4,1) 100%);
+background-size: cover;
+background-repeat: repeat  ;
+margin-right: auto;
+font-family: 'Oxanium', cursive;
+}
+
+
+
+.card1 {
+  color: white;
+  font-family: 'Oxanium', cursive;
+  display: none;
+  border: 1px solid #ff0000;
+  border-radius: 10px;
+  border-width: 5px;
+  padding: 10px;
+  margin-top: 30px;
+  background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 55%, rgb(255, 2, 2) 97%);
+box-shadow: 0px 20px 20px rgb(0, 0, 0);
+}
+
+.ativo {
+  
+  display: block;
+}
+
+.card2 {
+  color: white;
+  font-family: 'Oxanium', cursive;
+  display: none;
+  border: 1px solid #038aff;
+  border-radius: 10px;
+  border-width: 5px;
+  padding: 10px;
+  margin-top: 30px;
+  box-shadow: 0px 20px 20px rgb(0, 0, 0);
+  background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 55%, rgb(10, 137, 255) 97%);
+
+}
+
+.ativo {
+  
+  display: block;
+}
+.card3 {
+  color: white;
+  font-family: 'Oxanium', cursive;
+  display: none;
+  border: 1px solid #ffc802;
+  border-radius: 10px;
+  border-width: 5px;
+  padding: 10px;
+  margin-top: 30px;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 55%, rgb(255, 204, 2) 97%);
+  box-shadow: 0px 20px 20px rgb(0, 0, 0);
+}
+
+.ativo {
+  
+  display: block;
+}
+
+.botao-3d {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #336633; /* Cor de fundo verde escuro */
+  color: #fff; /* Cor do texto branco */
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; /* Borda arredondada */
+  box-shadow: 5px 10px 10px rgb(0, 0, 0); /* Sombra 3D */
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Estilos do botão quando hover (passar o mouse por cima) */
+.botao-3d:hover {
+  background-color: #2a522a; /* Cor de fundo mais escura */
+}
+
+/* Estilos do botão quando pressionado */
+.botao-3d:active {
+  transform: translateY(2px); /* Efeito de pressionar o botão */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra menor quando pressionado */
+}
+
+/* Estilos básicos do botão */
+.botao2 {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000; /* Cor de fundo preta */
+  color: #fff; /* Cor do texto branco */
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 5px; /* Borda arredondada */
+  box-shadow: 0px 20px 20px rgb(0, 0, 0); /* Sombra 3D */
+  transition: transform 0.2s, box-shadow 0.2s;
+
+}
+
+/* Estilos do botão quando hover (passar o mouse por cima) */
+.botao2:hover {
+  background-color: #333; /* Cor de fundo mais escura ao passar o mouse */
+}
+
+/* Estilos do botão quando pressionado */
+.botao2:active {
+  transform: translateY(2px); /* Efeito de pressionar o botão */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra menor quando pressionado */
+}
+
+
+
+.res {
+  border: 20px;
+  border-radius: 10px;
+  border-color: #038aff;
+}
+
+.dados {
+box-shadow: 0px 20px 20px rgb(0, 0, 0);
+ border-radius: 10px;
+ padding:8px;
+ margin-bottom: 50px;
+
+}
+
+
+
+
+
+
+
