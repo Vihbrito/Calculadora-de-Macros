@@ -125,16 +125,50 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(0, 0, 0) 0%, rgb(0, 0, 
 }
 
 .dados {
-box-shadow: 0px 20px 20px rgb(0, 0, 0);
+box-shadow: 0px 20px 50px rgb(0, 0, 0);
  border-radius: 10px;
  padding:8px;
  margin-bottom: 50px;
+ text-align: center;
+padding-bottom: 50px;
 
+}
+
+.mac{
+  border-radius: 10px;
+  box-shadow: 0px 20px 20px rgb(0, 0, 0);
+  border: 5px;
+  border-style: groove;
+  border-color: antiquewhite;
+  padding: 10px;
+}
+
+.tdee {
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgb(0, 0, 0);
+  padding: 1px;
+  padding-left: 15px;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+}
+.text{
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgb(0, 0, 0);
+  padding: 1px;
+  padding-left: 15px;
+  background-color: #ffffff;
+  margin-bottom: 10px;
 }
 
 
 
-
-
-
-
+.title {
+  text-align: center;
+}
+.porc {
+  width: 40px;
+  height: 28px;
+  margin: 10px;
+  font-size: larger;
+  padding: 5px;
+}
