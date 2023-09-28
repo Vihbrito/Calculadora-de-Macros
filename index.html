@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/hand-drawn-style-fruit-apple-free-png 1.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,28 +22,39 @@
     <title>Calculadora de Dieta</title>
   </head>
   <body>
-    <h2>Calculadora de TDEE</h2>
-    <i class="fa-solid fa-apple-whole" style="color: #000000"></i>
+
+
+    <div class="title">
+    <h2 class="ti" >Calculadora de TDEE</h2>
+   <img 
+   src="public/hand-drawn-style-fruit-apple-free-png 1.svg"
+   alt="maçã"
+   width="50px"
+   class="i">
+   
+    </div>
+
+
     <br>
     <br>
     <div class="dados" >
     <label for="idade" >Idade:</label>
-    <input type="number" id="idade" style="border-radius: 10px;"/><br />
+    <input type="number" id="idade" style="height:25px; border-radius: 10px;"/><br />
 <br>
     <label for="peso">Peso (em kg):</label>
-    <input type="number" id="peso" style="border-radius: 10px;"/><br />
+    <input type="number" id="peso" style="height:25px; border-radius: 10px;"/><br />
 <br>
     <label for="altura">Altura (em cm):</label>
-    <input type="number" id="altura" style="border-radius: 10px;"/><br />
+    <input type="number" id="altura" style="height:25px; border-radius: 10px;"/><br />
 <br>
     <label for="genero">Gênero:</label>
-    <select id="genero" style="border-radius: 10px;">
+    <select id="genero" style="height:30px; border-radius: 10px;">
       <option value="feminino">Feminino</option>
       <option value="masculino">Masculino</option></select
     ><br />
 <br>
     <label for="nivelAtividade">Nível de Atividade:</label>
-    <select id="nivelAtividade" style="border-radius: 10px;" >
+    <select id="nivelAtividade" style="height:30px; border-radius: 10px;" >
       <option value="sedentario">Sedentário</option>
       <option value="leve">Leve (exercício leve ou nenhum)</option>
       <option value="moderado">Moderado (exercício moderado)</option>
@@ -60,27 +71,36 @@
       value="Calcular TDEE"
       onclick="calcularTDEE()"
     />
+    <br>
+<br>
+<div class="tdee">
 <!-- calcular tdee -->
-    <p id="resultado" class="res"></p>
-
+    <p id="resultado" class="res" ></p>
 </div>
 
+
+
+<div class="mac">
+  <div class="text">
+  <p style="font: bolder;">CALCULE SEUS MACRONUTRIENTES</p>
+</div>
     <!-- Adicione esses elementos abaixo do elemento com id "resultado" -->
     <button  class="botao2" id="b" style=" border-color: red;">
-      <p>Calorias para Bulking: <span id="bulkingCalories"></span> kcal</p>
+      <p>Bulking: <span id="bulkingCalories"></span> kcal</p>
     </button>
 
     <button class="botao2"  id="c" style="border-color: #038aff;">
-      <p>Calorias para Cutting: <span id="cuttingCalories"></span> kcal</p>
+      <p>Cutting: <span id="cuttingCalories"></span> kcal</p>
     </button>
 
     <button class="botao2" style="border-color: #ffc802;" id="m">
       <p>
-        Calorias para Manutenção: <span id="maintenanceCalories"></span> kcal
+        Manutenção: <span id="maintenanceCalories"></span> kcal
       </p>
     </button>
 
     <!-- card 1-->
+    
     <div class="card1" id="cb">
      <p style="font-size: 30px;"> BULKING</p> 
 
@@ -92,6 +112,7 @@
         min="0"
         max="100"
         value="30"
+        class="porc"
         style="border-radius: 15px;"
       /><br />
 
@@ -102,6 +123,7 @@
         min="0"
         max="100"
         value="50"
+        class="porc"
         style="border-radius: 15px;"
       /><br />
 
@@ -112,6 +134,7 @@
         min="0"
         max="100"
         value="20"
+        class="porc"
         style="border-radius: 15px;"
       /><br />
 
@@ -124,9 +147,9 @@
       />
 
       <!-- Exibição das quantidades de macronutrientes calculadas -->
-      <p>Proteínas: <span id="proteinasGramas1"></span> gramas</p>
-      <p>Carboidratos: <span id="carboidratosGramas1"></span> gramas</p>
-      <p>Gorduras: <span id="gordurasGramas1"></span> gramas</p>
+      <p>Proteínas: <span id="proteinasGramas1"></span> </p>
+      <p>Carboidratos: <span id="carboidratosGramas1"></span></p>
+      <p>Gorduras: <span id="gordurasGramas1"></span> </p>
     </div>
 
     <!-- card 2-->
@@ -141,6 +164,7 @@
         min="0"
         max="100"
         value="30"
+        class="porc"
         style="border-radius: 15px;"
       /><br />
 
@@ -151,6 +175,7 @@
         min="0"
         max="100"
         value="50"
+        class="porc"
         style="border-radius: 15px;"
       /><br />
 
@@ -161,6 +186,7 @@
         min="0"
         max="100"
         value="20"
+        class="porc"
         style="border-radius: 15px;"
       /><br />
 
@@ -173,9 +199,9 @@
       />
 
       <!-- Exibição das quantidades de macronutrientes calculadas -->
-      <p>Proteínas: <span id="proteinasGramas2"></span> gramas</p>
-      <p>Carboidratos: <span id="carboidratosGramas2"></span> gramas</p>
-      <p>Gorduras: <span id="gordurasGramas2"></span> gramas</p>
+      <p>Proteínas: <span id="proteinasGramas2"></span> </p>
+      <p>Carboidratos: <span id="carboidratosGramas2"></span> </p>
+      <p>Gorduras: <span id="gordurasGramas2"></span> </p>
     </div>
 
     <!-- card 3-->
@@ -190,6 +216,7 @@
         min="0"
         max="100"
         value="30"
+        class="porc"
         style="border-radius: 15px;"
       /><br />
 
@@ -200,6 +227,7 @@
         min="0"
         max="100"
         value="50"
+        class="porc"
         style="border-radius: 15px;"
       /><br />
 
@@ -210,6 +238,7 @@
         min="0"
         max="100"
         value="20"
+        class="porc"
         style="border-radius: 15px;"
       /><br />
 
@@ -222,13 +251,18 @@
       />
 
       <!-- Exibição das quantidades de macronutrientes calculadas -->
-      <p>Proteínas: <span id="proteinasGramas3"></span> gramas</p>
-      <p>Carboidratos: <span id="carboidratosGramas3"></span> gramas</p>
-      <p>Gorduras: <span id="gordurasGramas3"></span> gramas</p>
+      <p>Proteínas: <span id="proteinasGramas3"></span> </p>
+      <p>Carboidratos: <span id="carboidratosGramas3"></span> </p>
+      <p>Gorduras: <span id="gordurasGramas3"></span> </p>
     </div>
+</div>
+</div>
+    <br />
+    <br />
+<br>
+<br>
+<br>
 
-    <br />
-    <br />
 
     <script src="/main.js"></script>
   </body>
