@@ -1,9 +1,6 @@
 # Calculadora-de-Macros
-Calculadora de TDEE,  calorias e macronutrientes para fases de Bulking, Cutting e Manutenção.
 
  
-
-
 <p align="center">
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
@@ -25,25 +22,28 @@ Calculadora de TDEE,  calorias e macronutrientes para fases de Bulking, Cutting 
 
 
 # Descrição do Projeto
-Esse é um projeto de E-commerce em desenvolvimento para o meu bazar pessoal já existente.
+Esse é um projeto de Calculadora de TDEE,  calorias e macronutrientes para fases de Bulking, Cutting e Manutenção. Todos os resultados são baseados em fórmulas matemáticas padrões pré-existentes. 
+
 
 # Status do Projeto
 > :construction: Projeto em construção :construction:
 
 # Funcionalidades do Projeto :hammer: 
 
-- `Funcionalidade 1`: Ao clicar na logo, é possível voltar para a página inicial;
-- `Funcionalidade 2`: Ao clicar no ícone de "carrinho +" no final de cada card, é possível adicionar com a alteração automática do valor final;
-- `Funcionalidade 3`: Ao clicar no ícone de "carrinho" no header da página, é possível acessar os itens que foram adicionados pela funcionalidade anterior e o valor final da soma dos produtos adicionados; 
-- `Funcionalidade 4`: Ao clicar nos botões de "+ e -" nos dos cards de produtos dentro da aba de carrinho citada na funcionalidade anterior, é possivel controlar a quantidade adiconada de um mesmo produto,  alterando o valor automaticamente;
-- `Funcionalidade 5`: Ao clicar no ícone de "x" dentro co card de cada produto adicionado ao carrinho, é possível removê-lo, alterando o valor automaticamente.
-- `Funcionalidade 6`: Ao clicar no ícone de "x" dentro da aba "carrinho", é possível recolher a exibição do carrinho da tela sem gerar alteração no conteúdo adicionado.
-- `Funcionalidade 7`: Ao clicar no botão "Finalizar Compra", você é direcionado para a página de "checkout", onde terão abas para preenchimento de dados pessoais requeridos para a conclusão da compra. 
-- `Funcionalidade 8`: Ao clicar no ícone de "user" no header da página, ao lado do ícone de "carrinho", você será redirecionado para o histórico de compras ( se houver ).
+- `Funcionalidade 1`: Os botões pretos de "Bulking", "Cutting" e "Manutenção" são clicáveis e abrem cards para o cálculo de macros;
+- `Funcionalidade 2`: O cálculos de macros pode ser alterado, uma vez que é possível mudar as porcentagens pré-definidas;
+- `Funcionalidade 3`: A página exibe um aviso se a soma das porcentagens escolhidas for menor ou maior que 100% e os novos macros não serão calculados; 
+- `Funcionalidade 4`: Para remover os cards abertos, basta clicar novamente em seus respectivos botões;
+- `Funcionalidade 5`: Para atualizar a divisão de macros ao alterar as porcentagens, basta clicar novamente no botão dentro do card;
+- `Funcionalidade 6`: Além das kcal de "Bulking", "Cutting" e "Manutenção", a TDEE do usuário é exibida no card em branco ao clicar no primeiro botão exibido.
 
 **Exemplificação das funcionalidades:**
 
-https://github.com/Vihbrito/VBlue.bazar/assets/142455532/8504f892-56cd-4117-aa82-449165f73fd1
+https://github.com/Vihbrito/Calculadora-de-Macros/assets/142455532/31f1f75a-a60c-4773-89b7-a1d5675f822a
+
+# Site do projeto
+
+https://65160a5e1f7d9306e1c53b98--symphonious-muffin-5c2317.netlify.app
 
 
 # 📁 Acesso ao Projeto 
@@ -52,9 +52,14 @@ Para acessar o projeto, você precisa fazer o download e descompactá-lo. Em seg
 
 # 🛠️ Abrir e Rodar o Projeto 
 
-Para que o projeto seja apresentado como está exemplificado no vídeo, é preciso fazer a instalação do framework Tailwindcss no seu terminal. 
-- As instruções para a instalação estão apresentas no link: https://tailwindcss.com/docs/installation.
+Esse projeto foi criado com o Vite, por isso, para que ele rode sem erros, é necessario criar o ambiente com ele. 
+No cmd, rodar cd + "caminho da pasta onde estão os arquivos" e digite o comando "npm create vite@latest". Em seguida, escolher o nome do projeto. Após isso, escolha a opção JavaScript (que foi usada para a construção desse projeto) e rode os comandos:
+
+cd "nome do projeto"
+npm install
+
 Em seguida, para rodar o projeto, é preciso adicionar o comando "npm run dev" no seu terminal e Ctrl + click em cima do link Local.
+Os arquivos serão automaticamente adicionadas à pasta onde está o seu projeto. Então, ao abrir seu editor de código, basta excluir os arquivos não utilizadas e substituí-los pelos arquivos desse projeto. 
 
 # Autora
 **Vitória Brito**
