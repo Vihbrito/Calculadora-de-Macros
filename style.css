@@ -69,51 +69,50 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(0, 0, 0) 0%, rgb(0, 0, 
 .botao-3d {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #336633; /* Cor de fundo verde escuro */
-  color: #fff; /* Cor do texto branco */
+  background-color: #336633;
+  color: #fff; 
   font-size: 16px;
   border: none;
   cursor: pointer;
-  border-radius: 5px; /* Borda arredondada */
-  box-shadow: 5px 10px 10px rgb(0, 0, 0); /* Sombra 3D */
+  border-radius: 5px; 
+  box-shadow: 5px 10px 10px rgb(0, 0, 0); 
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
-/* Estilos do botão quando hover (passar o mouse por cima) */
+
 .botao-3d:hover {
-  background-color: #2a522a; /* Cor de fundo mais escura */
+  background-color: #2a522a; 
 }
 
-/* Estilos do botão quando pressionado */
+
 .botao-3d:active {
-  transform: translateY(2px); /* Efeito de pressionar o botão */
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra menor quando pressionado */
+  transform: translateY(2px);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); 
 }
 
-/* Estilos básicos do botão */
+
 .botao2 {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #000; /* Cor de fundo preta */
-  color: #fff; /* Cor do texto branco */
+  background-color: #000;
+  color: #fff;
   font-size: 16px;
   cursor: pointer;
   margin: 5px;
-  border-radius: 5px; /* Borda arredondada */
-  box-shadow: 0px 20px 20px rgb(0, 0, 0); /* Sombra 3D */
+  border-radius: 5px;
+  box-shadow: 0px 20px 20px rgb(0, 0, 0);
   transition: transform 0.2s, box-shadow 0.2s;
 
 }
 
-/* Estilos do botão quando hover (passar o mouse por cima) */
+
 .botao2:hover {
-  background-color: #333; /* Cor de fundo mais escura ao passar o mouse */
+  background-color: #333; 
 }
 
-/* Estilos do botão quando pressionado */
 .botao2:active {
-  transform: translateY(2px); /* Efeito de pressionar o botão */
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra menor quando pressionado */
+  transform: translateY(2px); 
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 
