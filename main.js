@@ -119,7 +119,7 @@ function calcularTDEE() {
     var resultadoElement = document.getElementById("resultado");
     var bulkingCaloriesElement = document.getElementById("bulkingCalories");
     
-    var fatorAtividade = 1.2; // Sedentário por padrão
+    var fatorAtividade = 1.2; 
   
     switch (nivelAtividade) {
         case "leve":
@@ -160,7 +160,7 @@ function calcularTDEE() {
     var carboidratosPorcentagem = parseFloat(document.getElementById("carboidratosPorcentagem1").value);
     var gordurasPorcentagem = parseFloat(document.getElementById("gordurasPorcentagem1").value);
     
-    var totalCalorias = obterTotalCaloriasB(); // Chama a função para obter o valor total de calorias
+    var totalCalorias = obterTotalCaloriasB(); 
     
     var totalPorcentagem = proteinasPorcentagem + carboidratosPorcentagem + gordurasPorcentagem;
   
@@ -169,9 +169,9 @@ function calcularTDEE() {
         return;
     }
   
-    var proteinasGramas = (proteinasPorcentagem / 100) * totalCalorias / 4; // 4 calorias por grama de proteína
-    var carboidratosGramas = (carboidratosPorcentagem / 100) * totalCalorias / 4; // 4 calorias por grama de carboidrato
-    var gordurasGramas = (gordurasPorcentagem / 100) * totalCalorias / 9; // 9 calorias por grama de gordura
+    var proteinasGramas = (proteinasPorcentagem / 100) * totalCalorias / 4;
+    var carboidratosGramas = (carboidratosPorcentagem / 100) * totalCalorias / 4; 
+    var gordurasGramas = (gordurasPorcentagem / 100) * totalCalorias / 9;
   
     document.getElementById("proteinasGramas1").textContent = proteinasGramas.toFixed(2) + " gramas";
     document.getElementById("carboidratosGramas1").textContent = carboidratosGramas.toFixed(2) + " gramas";
@@ -240,10 +240,9 @@ function calcularTDEE() {
         return;
     }
   
-    var proteinasGramas = (proteinasPorcentagem / 100) * totalCalorias / 4; // 4 calorias por grama de proteína
-    var carboidratosGramas = (carboidratosPorcentagem / 100) * totalCalorias / 4; // 4 calorias por grama de carboidrato
-    var gordurasGramas = (gordurasPorcentagem / 100) * totalCalorias / 9; // 9 calorias por grama de gordura
-  
+    var proteinasGramas = (proteinasPorcentagem / 100) * totalCalorias / 4; 
+    var carboidratosGramas = (carboidratosPorcentagem / 100) * totalCalorias / 4;
+    var gordurasGramas = (gordurasPorcentagem / 100) * totalCalorias / 9;
     document.getElementById("proteinasGramas2").textContent = proteinasGramas.toFixed(2) + " gramas";
     document.getElementById("carboidratosGramas2").textContent = carboidratosGramas.toFixed(2) + " gramas";
     document.getElementById("gordurasGramas2").textContent = gordurasGramas.toFixed(2) + " gramas";
@@ -313,10 +312,9 @@ function calcularTDEE() {
         return;
     }
   
-    var proteinasGramas = (proteinasPorcentagem / 100) * totalCalorias / 4; // 4 calorias por grama de proteína
-    var carboidratosGramas = (carboidratosPorcentagem / 100) * totalCalorias / 4; // 4 calorias por grama de carboidrato
-    var gordurasGramas = (gordurasPorcentagem / 100) * totalCalorias / 9; // 9 calorias por grama de gordura
-  
+    var proteinasGramas = (proteinasPorcentagem / 100) * totalCalorias / 4; 
+    var carboidratosGramas = (carboidratosPorcentagem / 100) * totalCalorias / 4;
+    var gordurasGramas = (gordurasPorcentagem / 100) * totalCalorias / 9; 
     document.getElementById("proteinasGramas3").textContent = proteinasGramas.toFixed(2) + " gramas";
     document.getElementById("carboidratosGramas3").textContent = carboidratosGramas.toFixed(2) + " gramas";
     document.getElementById("gordurasGramas3").textContent = gordurasGramas.toFixed(2) + " gramas";
